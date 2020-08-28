@@ -1,0 +1,193 @@
+/*------------------Settings---------------------*/
+
+/*font-family: 'Expletus Sans', cursive;*/
+/*font-family: 'Rubik', sans-serif;*/
+
+
+
+/*-------------------GENERIC----------------------*/
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+h1, h2{
+    margin: 0;
+}
+
+
+/*-------------------ELEMENT----------------------*/
+
+body{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 25px;
+
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+h1{
+    font-family: Expletus Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6rem;
+    line-height: 125px;
+    color: #2D2D2D;
+}
+
+h2{
+    font-family: Expletus Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 83px;
+
+    color: #FFFFFF;
+}
+
+/*-------------------COMPONENTS----------------------*/
+
+.conteneur{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+/* Header */
+
+.header-principal{
+    background: #FF9800;
+    padding: 20px 0;
+}
+
+.nav-principale ul{
+  display: flex;
+    justify-content: flex-end;
+  margin: 0;
+}
+
+.nav-principale li{
+   margin-left: 15px;
+}
+
+.hero{
+    background: #FFC107;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.hero h1{
+    padding: 88px 0;
+}
+
+.information{
+    padding: 30px 0;
+}
+
+.information .conteneur{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carte{
+    background: #f0f0f0;
+    width: 31%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.carte header{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.carte:nth-child(1) header{
+    background: #E34E26;
+}
+
+.carte:nth-child(2) header{
+    background: #0270BB;
+}
+
+.carte:nth-child(3) header{
+    background: #F8DC3D;
+}
+
+.conteneur .content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.bouton{
+
+
+    color: #2D2D2D;
+
+    background: #FFC107;
+    border: 1px solid #E64A19;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.bouton:hover{
+    background: #E64A19;
+    text-decoration: none;
+}
+
+.carte-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 17px;
+}
+
+span{
+    color: #E64A19;
+}
+
+.footer-principal{
+    background: #E64A19;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+.footer-principal h3{
+    margin: 0;
+
+    padding: 22px 0;
+}
+
+/*-------------------UTILITIES----------------------*/
